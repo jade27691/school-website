@@ -153,7 +153,9 @@ footer p {
     background: white;
 }
 
-/* DEVICES > 600PX */
+/* ------ DEVICES > 600PX ---------*/
+
+@media screen and (min-width: 600px) {
 
 /* TOP MENU */
 
@@ -193,4 +195,85 @@ header p {
 
 #apply-btn {
     bottom: 30%;
+}
+
+.row1-1 {
+    width: 50%;
+    margin-top: 2%;
+}
+
+.row1-2 {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.row1-2 p {
+    max-width: 60%;
+}
+
+.row2 p {
+    font-size: 2em;
+}
+
+.sarah, .tom {
+    width: 50%;
+    float: left;
+    padding-bottom: 2%;
+}
+
+.row3 {
+    display: flex;
+}
+
+.row3-1 {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+.row3-1 {
+    max-width: 60%;
+}
+
+.row3-2 {
+    flex:1;
+}
+
+/* FOOTER MENU */
+
+footer ul {
+    text-align: center;
+    background-color: #8393ca;
+    margin: 0;
+}
+
+footer li, footer li a {
+    display: inline-block;
+    background-color: transparent;
+    border-bottom: none;
+    padding: 5px;
+}
+
+footer li {
+    border-right: 1px solid #4a525f;
+}
+
+footer li:last-child {
+    border-right: none;
+}
+
+footer li:hover, footer li a:hover {
+    background-color: #3e486a;
+}
+
+footer p {
+    padding-top: 2%;
+    background-color: #e0e0eb;
+    font-size: 1.2em;
+}
 }

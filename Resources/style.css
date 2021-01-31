@@ -152,3 +152,45 @@ footer p {
     padding-bottom: 2%;
     background: white;
 }
+
+/* DEVICES > 600PX */
+
+/* TOP MENU */
+
+header ul {
+    position: absolute;
+    top: 8%;
+    text-align: center;
+    background: white;
+}
+
+header li, header li a {
+    display:inline-block;
+    background: transparent;
+    border-bottom: none;
+    color: #4a525f;
+    padding: 5px;
+}
+
+header li {
+    border-right: solid 1px#4a525f;
+}
+
+header li:last-child {
+    border-right: none;
+}
+
+header li:hover, header li a:hover {
+    background: #d8cccc;
+}
+
+/* TOP MENU END */
+
+header p {
+    bottom: 40%;
+    font-size: 2em;
+}
+
+#apply-btn {
+    bottom: 30%;
+}
